@@ -41,11 +41,10 @@ terraform.rc
 
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
-# planout
 
+# *.plan
 # Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
->>>>>>> 84589855c591329bff92967a9f93aa3e0b2732f0
